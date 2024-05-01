@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 100vh;
+    flex-direction: column;
+    }
+body img{
+  width: 100px;
+}
+span{
+  color: white;
+  font-size: 50px;
+}
+</style>
+<script>
+  function like(){
+    document.getElementById('like').src = '/logo/like.webp'
+  }
+
+
+</script>
+
+</head>
+
+<body>
+
+    <img onclick="like()" id="like" src="/logo/nonlike.webp" alt="">
+    <span>1</span>
+ 
+  
+  
+</body>
+</html>
